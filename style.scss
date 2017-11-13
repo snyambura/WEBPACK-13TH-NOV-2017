@@ -1,0 +1,26 @@
+.black {
+  color: #000;
+}
+
+//nesting
+
+nav {
+  margin-top: 20%;
+  ul {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 30%;
+    list-style: none;
+    background-color: black;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+  }
+}
